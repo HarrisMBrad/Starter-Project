@@ -3,7 +3,7 @@ let ctx = document.getElementById('monthlySales').getContext('2d');
 let pieCtx = document.getElementById('deptSales').getContext('2d');
 let yearlyLabel = document.getElementById('yearlyTotal');
 
-let monthlySales = Array.of(500,9000,3000, 400);
+let monthlySales = Array.of(500,9000,3000, 500);
 let monthlyLabels = Array.of('Oct', 'Nov', 'Dec');
 
 let deptSales = Array.of(12,9,3);
